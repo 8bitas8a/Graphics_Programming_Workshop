@@ -21,6 +21,7 @@ val lwjglNatives: String by lazy {
 
 dependencies {
     implementation(libs.guava)
+    implementation("org.joml:joml:1.10.7")
 
     implementation(platform("org.lwjgl:lwjgl-bom:$lwjglVersion"))
 
