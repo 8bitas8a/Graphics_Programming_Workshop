@@ -16,7 +16,7 @@ import static org.lwjgl.opengl.GL30.*;
 import static org.lwjgl.system.MemoryStack.*;
 import static org.lwjgl.system.MemoryUtil.*;
 
-public class App {
+public class Main {
 
     private long window;
     private int  shaderProgram;
@@ -62,7 +62,7 @@ public class App {
     // ── Entry point ───────────────────────────────────────────────────────────
 
     public static void main(String[] args) {
-        new App().run();
+        new Main().run();
     }
 
     public void run() {
